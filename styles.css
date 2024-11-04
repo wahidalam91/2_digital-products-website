@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Common Shared Styles  */
+
+
+/* Nav Related Styles */
+
+.nav-container{
+    background-color: #474747;
+    color: #fff;
+
+    padding: 30px 150px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.nav-menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-items li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.item:hover{
+    color: dodgerblue;
+    font-size: 25px;
+}
