@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    color: #fff;
 }
 
 /* Common Shared Styles  */
@@ -40,3 +41,44 @@
     color: dodgerblue;
     font-size: 25px;
 }
+
+/* Banner Related Styles */
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100vh;
+    background-image: url(./images/background.png), linear-gradient(45deg, rgb(8,8,8), rgb(53,53,53));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-text{
+    width: 50%;
+}
+
+.banner-title{
+    font-size: 54px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.banner-description{
+    font-size: 18px;
+}
+
+.btn-primary{
+    border: 0;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+
+    background-color: tomato;
+
+}
+
