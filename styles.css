@@ -184,6 +184,47 @@
     margin: 20px 0px;
 }
 
+/* Footer Related Styles */
 
+footer{
+    padding: 150px 200px 10px 200px;
+    background-color: #000;
+    color: white;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.title-description{
+    margin-top: 20px;
+}
+
+
+.footer-card li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer-card li:hover{
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+.footer-card h3{
+    margin-bottom: 10px;
+}
+
+footer hr{
+    /* width: 80%; */
+    text-align: center;
+    margin: 150px 50px 10px 50px;
+}
+
+.copyright-text{
+    text-align: center;
+}
 
 
