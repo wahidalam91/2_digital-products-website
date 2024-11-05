@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    color: #fff;
+
 }
 
 /* Common Shared Styles  */
@@ -23,11 +23,14 @@
 .nav-title{
     font-size: 25px;
     font-weight: 800;
+    color: #fff;
 }
 
 .nav-menu ul{
     display: flex;
     justify-content: space-between;
+
+    color: #fff;
 }
 
 .menu-items li{
@@ -48,6 +51,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    color: #fff;
 
     height: 100vh;
     background-image: url(./images/background.png), linear-gradient(45deg, rgb(8,8,8), rgb(53,53,53));
@@ -77,8 +82,43 @@
     padding: 15px 20px;
     font-size: 20px;
     font-weight: 600;
-
+    color: #fff;
     background-color: tomato;
+
+}
+
+/* About Us Related Styles */
+
+
+.about-us{
+    margin: 50px 200px;
+    height: 75vh
+}
+
+.about-us-title{
+    font-size: 85px; 
+    font-weight: 600;
+    text-align: center;   
+    margin-bottom: 50px;
+}
+
+.about-us-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-us-img img{
+    width: 300px;
+}
+
+.about-us-text{
+    text-align: left;
+}
+
+.about-us-intro{
+    font-size: 36px;
+    margin-bottom: 20px;
 
 }
 
