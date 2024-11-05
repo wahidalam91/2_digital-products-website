@@ -6,6 +6,24 @@
 
 /* Common Shared Styles  */
 
+.btn-primary{
+    border: 0;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: tomato;
+
+}
+
+.section-title{
+    font-size: 85px; 
+    font-weight: 600;
+    text-align: center;   
+    margin-bottom: 50px;
+}
 
 /* Nav Related Styles */
 
@@ -75,31 +93,12 @@
     font-size: 18px;
 }
 
-.btn-primary{
-    border: 0;
-    border-radius: 5px;
-    margin: 20px 0;
-    padding: 15px 20px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #fff;
-    background-color: tomato;
 
-}
 
 /* About Us Related Styles */
-
-
 .about-us{
     margin: 50px 200px;
     height: 75vh
-}
-
-.about-us-title{
-    font-size: 85px; 
-    font-weight: 600;
-    text-align: center;   
-    margin-bottom: 50px;
 }
 
 .about-us-container{
@@ -121,4 +120,70 @@
     margin-bottom: 20px;
 
 }
+
+/* Our Services Related Styles */
+.our-services{
+    padding: 50px 200px;
+
+    background-image: url(./images/background.png), linear-gradient(45deg, rgb(8,8,8), rgb(53,53,53));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-services .section-title{
+    font-size: 85px; 
+    font-weight: 600;
+    text-align: center;   
+    margin-bottom: 50px;
+    color: wheat;
+}
+
+.our-services-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+.service-card{
+    color: wheat;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-shadow: 5px 5px 150px gray;
+
+    text-align: center;
+}
+
+.service-img{
+    text-align: center;
+
+    margin: 30px 0px;
+}
+
+.service-icon{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.service-title{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+
+    margin: 20px 0px;
+}
+
+.service-card button{
+    padding: 5px 10px;
+    background-color: #474747;
+    color: wheat;
+    border-radius: 5px;
+
+    margin: 20px 0px;
+}
+
+
+
 
